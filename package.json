@@ -1,0 +1,25 @@
+{
+  "name": "@wojciechzsk/library",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/WojciechZSK/libary#readme",
+  "bugs": {
+    "url": "https://github.com/WojciechZSK/libary/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WojciechZSK/libary.git"
+  },
+  "license": "ISC",
+  "author": "Wojciech Napierała",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
